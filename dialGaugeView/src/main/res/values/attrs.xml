@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DialGaugeView">
+        <attr name="dgv_end_value" format="float" />
+        <attr name="dgv_start_angle" format="integer" />
+        <attr name="dgv_sweep_angle" format="integer" />
+        <attr name="dgv_notches" format="integer" />
+        <attr name="dgv_digits_margin" format="dimension"/>
+        <attr name="dgv_text_size" format="dimension"/>
+    </declare-styleable>
+</resources>
