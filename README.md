@@ -2,7 +2,7 @@
 
 Simple dial gauge view for android. 
 
-May be added to project via git submodule or as AAR file of dialGaugeView module
+May be added to project via git submodule or as AAR file (run 'assemble' gradle task in dialGaugeView module)
 
 ## Using
 
@@ -60,7 +60,7 @@ Aidl files have been moved to a special module to make it easier to work with it
 
 ### Running
 
-from IDE: run configuration ```app```. This configuration build two modules, install them and run client
+from IDE: run configuration ```vehicleDataService``` and then ```app```. This configuration build two modules and install its.
 
 from APK: you must build two APKs (for ```app``` and ```vehicleDataService``` modules) and install both. First - service and then client
 
